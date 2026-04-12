@@ -110,4 +110,13 @@ using (var scope = app.Services.CreateScope())
 app.UseHttpsRedirection();
 app.UseCors("FrontendPolicy");
 app.MapControllers();
+
+
+
+app.UseSwagger();
+app.UseSwaggerUI();
+app.UseAuthorization();
+app.MapGet("/", () => "Backend działa");
+
+
 app.Run();
