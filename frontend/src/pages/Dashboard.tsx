@@ -101,9 +101,7 @@ const Dashboard = () => {
   return (
     <div style={pageStyle}>
       <h1 style={{ marginBottom: '8px' }}>☁️ Cloud App Dashboard</h1>
-      <p style={{ marginTop: 0, marginBottom: '24px', color: '#4b5563' }}>
-        Zadanie 8: dodany test jednostkowy, bezpieczniejsze API i przycisk usuwania.
-      </p>
+
 
       {error && (
         <div style={{ background: '#fff3cd', color: '#856404', padding: '12px', borderRadius: '8px', margin: '20px auto', maxWidth: '520px' }}>
