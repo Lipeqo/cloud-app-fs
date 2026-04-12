@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Filip\\cloud-app-fs-main-final_7_8\\backend\\Tests\\CloudBackend.Tests.csproj": {}
+    "D:\\Filip\\cloud-app-fs\\cloud-app-fs\\backend\\Tests\\CloudBackend.Tests.csproj": {}
   },
   "projects": {
-    "D:\\Filip\\cloud-app-fs-main-final_7_8\\backend\\CloudBackend.csproj": {
+    "D:\\Filip\\cloud-app-fs\\cloud-app-fs\\backend\\CloudBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Filip\\cloud-app-fs-main-final_7_8\\backend\\CloudBackend.csproj",
+        "projectUniqueName": "D:\\Filip\\cloud-app-fs\\cloud-app-fs\\backend\\CloudBackend.csproj",
         "projectName": "CloudBackend",
-        "projectPath": "D:\\Filip\\cloud-app-fs-main-final_7_8\\backend\\CloudBackend.csproj",
+        "projectPath": "D:\\Filip\\cloud-app-fs\\cloud-app-fs\\backend\\CloudBackend.csproj",
         "packagesPath": "C:\\Users\\aszat\\.nuget\\packages\\",
-        "outputPath": "D:\\Filip\\cloud-app-fs-main-final_7_8\\backend\\obj\\",
+        "outputPath": "D:\\Filip\\cloud-app-fs\\cloud-app-fs\\backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aszat\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -104,14 +104,14 @@
         }
       }
     },
-    "D:\\Filip\\cloud-app-fs-main-final_7_8\\backend\\Tests\\CloudBackend.Tests.csproj": {
+    "D:\\Filip\\cloud-app-fs\\cloud-app-fs\\backend\\Tests\\CloudBackend.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Filip\\cloud-app-fs-main-final_7_8\\backend\\Tests\\CloudBackend.Tests.csproj",
+        "projectUniqueName": "D:\\Filip\\cloud-app-fs\\cloud-app-fs\\backend\\Tests\\CloudBackend.Tests.csproj",
         "projectName": "CloudBackend.Tests",
-        "projectPath": "D:\\Filip\\cloud-app-fs-main-final_7_8\\backend\\Tests\\CloudBackend.Tests.csproj",
+        "projectPath": "D:\\Filip\\cloud-app-fs\\cloud-app-fs\\backend\\Tests\\CloudBackend.Tests.csproj",
         "packagesPath": "C:\\Users\\aszat\\.nuget\\packages\\",
-        "outputPath": "D:\\Filip\\cloud-app-fs-main-final_7_8\\backend\\Tests\\obj\\",
+        "outputPath": "D:\\Filip\\cloud-app-fs\\cloud-app-fs\\backend\\Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aszat\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -126,8 +126,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Filip\\cloud-app-fs-main-final_7_8\\backend\\CloudBackend.csproj": {
-                "projectPath": "D:\\Filip\\cloud-app-fs-main-final_7_8\\backend\\CloudBackend.csproj"
+              "D:\\Filip\\cloud-app-fs\\cloud-app-fs\\backend\\CloudBackend.csproj": {
+                "projectPath": "D:\\Filip\\cloud-app-fs\\cloud-app-fs\\backend\\CloudBackend.csproj"
               }
             }
           }
@@ -150,19 +150,19 @@
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[17.12.0, )"
+              "version": "[17.8.0, )"
             },
             "coverlet.collector": {
               "target": "Package",
-              "version": "[6.0.2, )"
+              "version": "[6.0.0, )"
             },
             "xunit": {
               "target": "Package",
-              "version": "[2.9.2, )"
+              "version": "[2.5.0, )"
             },
             "xunit.runner.visualstudio": {
               "target": "Package",
-              "version": "[2.8.2, )"
+              "version": "[2.5.0, )"
             }
           },
           "imports": [

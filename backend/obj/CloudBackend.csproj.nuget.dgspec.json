@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Filip\\cloud-app-fs-main-final_7_8\\backend\\CloudBackend.csproj": {}
+    "D:\\Filip\\cloud-app-fs\\cloud-app-fs\\backend\\CloudBackend.csproj": {}
   },
   "projects": {
-    "D:\\Filip\\cloud-app-fs-main-final_7_8\\backend\\CloudBackend.csproj": {
+    "D:\\Filip\\cloud-app-fs\\cloud-app-fs\\backend\\CloudBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Filip\\cloud-app-fs-main-final_7_8\\backend\\CloudBackend.csproj",
+        "projectUniqueName": "D:\\Filip\\cloud-app-fs\\cloud-app-fs\\backend\\CloudBackend.csproj",
         "projectName": "CloudBackend",
-        "projectPath": "D:\\Filip\\cloud-app-fs-main-final_7_8\\backend\\CloudBackend.csproj",
+        "projectPath": "D:\\Filip\\cloud-app-fs\\cloud-app-fs\\backend\\CloudBackend.csproj",
         "packagesPath": "C:\\Users\\aszat\\.nuget\\packages\\",
-        "outputPath": "D:\\Filip\\cloud-app-fs-main-final_7_8\\backend\\obj\\",
+        "outputPath": "D:\\Filip\\cloud-app-fs\\cloud-app-fs\\backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aszat\\AppData\\Roaming\\NuGet\\NuGet.Config"

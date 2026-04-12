@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "158V2vPkLPU=",
+  "dgSpecHash": "+BDcYPXrobU=",
   "success": true,
-  "projectFilePath": "D:\\Filip\\cloud-app-fs-main-final_7_8\\backend\\CloudBackend.csproj",
+  "projectFilePath": "D:\\Filip\\cloud-app-fs\\cloud-app-fs\\backend\\CloudBackend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aszat\\.nuget\\packages\\azure.core\\1.53.0\\azure.core.1.53.0.nupkg.sha512",
     "C:\\Users\\aszat\\.nuget\\packages\\azure.extensions.aspnetcore.configuration.secrets\\1.5.0\\azure.extensions.aspnetcore.configuration.secrets.1.5.0.nupkg.sha512",
