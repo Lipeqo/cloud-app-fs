@@ -7,7 +7,9 @@ var builder = WebApplication.CreateBuilder(args);
 
 if (builder.Environment.IsProduction())
 {
-    var keyVaultName = builder.Configuration["KeyVaultName"];
+    //  var keyVaultName = builder.Configuration["KeyVaultName"];
+    var keyVaultName = builder.Configuration["cloud-task-manager-fs"];
+   
 
     if (!string.IsNullOrWhiteSpace(keyVaultName))
     {
