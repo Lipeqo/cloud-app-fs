@@ -5,6 +5,17 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
+
+//  DEBUG START
+Console.WriteLine("=== START BACKEND ===");
+Console.WriteLine("Environment: " + builder.Environment.EnvironmentName);
+Console.WriteLine("KeyVaultName: " + (builder.Configuration["KeyVaultName"] ?? "NULL"));
+Console.WriteLine("DefaultConnection exists: " + (!string.IsNullOrWhiteSpace(builder.Configuration.GetConnectionString("DefaultConnection"))));
+Console.WriteLine("DbConnectionString exists: " + (!string.IsNullOrWhiteSpace(builder.Configuration["DbConnectionString"])));
+//  DEBUG END
+
+
+
 if (builder.Environment.IsProduction())
 {
     //  var keyVaultName = builder.Configuration["KeyVaultName"];
