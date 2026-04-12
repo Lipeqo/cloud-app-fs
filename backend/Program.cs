@@ -76,6 +76,13 @@ if (app.Environment.IsDevelopment())
     });
 }
 
+
+if (app.Environment.IsProduction())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+
 using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
