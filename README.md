@@ -20,10 +20,10 @@ Projekt aplikacji chmurowej w architekturze 3-warstwowej:
 - [x] Artefakt 2 - środowisko lokalne i Docker
 - [x] Artefakt 3 - frontend
 - [x] Artefakt 4 - backend + REST API + baza
-- [x] Artefakt 5 - migracje i DTO. 
+- [x] Artefakt 5 - migracje i DTO
 - [x] Artefakt 6 - podstawowe wdrożenie do Azure
 - [x] Artefakt 7 - zabezpieczenie aplikacji: Azure Key Vault + Managed Identity + usunięcie sekretów z kodu
-
+- [x] Artefakt 8 - test jednostkowy, CI/CD GitHub Actions, przycisk Usuń, zaktualizowana dokumentacja
 
 ## Co zostało dodane w zadaniu 7
 
@@ -32,6 +32,7 @@ Projekt aplikacji chmurowej w architekturze 3-warstwowej:
 3. Konfiguracja CORS oparta o listę `Cors:AllowedOrigins`.
 4. Usunięcie jawnego hasła produkcyjnego z konfiguracji repozytorium.
 5. Instrukcja użycia Managed Identity w Azure App Service.
+
 
 
 ## Szybki start lokalny
