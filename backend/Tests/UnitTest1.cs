@@ -1,5 +1,5 @@
-using CloudBackend.Models;
 using Xunit;
+using CloudBackend.Models;
 
 namespace CloudBackend.Tests;
 

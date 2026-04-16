@@ -100,11 +100,26 @@ const Dashboard = () => {
 
   return (
     <div style={pageStyle}>
-      <h1 style={{ marginBottom: '8px' }}>☁️ Cloud App Dashboard</h1>
+      {/* 🔥 ZMIANA DO 8.3 */}
+      <h1 style={{ marginBottom: '8px', color: '#dc2626' }}>
+        ☁️ Cloud App Dashboard - CI/CD OK
+      </h1>
 
+      <p style={{ color: 'green', fontWeight: 'bold', marginBottom: '20px' }}>
+        Wdrożenie automatyczne działa poprawnie.
+      </p>
 
       {error && (
-        <div style={{ background: '#fff3cd', color: '#856404', padding: '12px', borderRadius: '8px', margin: '20px auto', maxWidth: '520px' }}>
+        <div
+          style={{
+            background: '#fff3cd',
+            color: '#856404',
+            padding: '12px',
+            borderRadius: '8px',
+            margin: '20px auto',
+            maxWidth: '520px',
+          }}
+        >
           {error}
         </div>
       )}
@@ -115,7 +130,12 @@ const Dashboard = () => {
           placeholder="Wpisz nowe zadanie..."
           value={newTaskName}
           onChange={(e) => setNewTaskName(e.target.value)}
-          style={{ padding: '12px', width: '280px', borderRadius: '8px', border: '1px solid #cbd5e1' }}
+          style={{
+            padding: '12px',
+            width: '280px',
+            borderRadius: '8px',
+            border: '1px solid #cbd5e1',
+          }}
           disabled={isLoading}
         />
         <button
