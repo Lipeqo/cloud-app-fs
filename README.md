@@ -20,7 +20,7 @@ Projekt aplikacji chmurowej w architekturze 3-warstwowej:
 - [x] Artefakt 2 - środowisko lokalne i Docker
 - [x] Artefakt 3 - frontend
 - [x] Artefakt 4 - backend + REST API + baza
-- [x] Artefakt 5 - migracje i DTO
+- [x] Artefakt 5 - migracje i DTO. 
 - [x] Artefakt 6 - podstawowe wdrożenie do Azure
 - [x] Artefakt 7 - zabezpieczenie aplikacji: Azure Key Vault + Managed Identity + usunięcie sekretów z kodu
 
