@@ -23,7 +23,7 @@ Projekt aplikacji chmurowej w architekturze 3-warstwowej:
 - [x] Artefakt 5 - migracje i DTO
 - [x] Artefakt 6 - podstawowe wdrożenie do Azure
 - [x] Artefakt 7 - zabezpieczenie aplikacji: Azure Key Vault + Managed Identity + usunięcie sekretów z kodu
-- [x] Artefakt 8 - test jednostkowy, CI/CD GitHub Actions, przycisk Usuń, zaktualizowana dokumentacja
+
 
 ## Co zostało dodane w zadaniu 7
 
@@ -33,15 +33,6 @@ Projekt aplikacji chmurowej w architekturze 3-warstwowej:
 4. Usunięcie jawnego hasła produkcyjnego z konfiguracji repozytorium.
 5. Instrukcja użycia Managed Identity w Azure App Service.
 
-## Co zostało dodane w zadaniu 8
-
-1. Projekt testowy xUnit `backend/Tests/CloudBackend.Tests.csproj`.
-2. Test `NewTask_ShouldNotBeCompleted` w `backend/Tests/UnitTest1.cs`.
-3. Workflow GitHub Actions dla backendu `backend-appservice.yml`.
-4. Workflow GitHub Actions dla frontendu `frontend-staticwebapp.yml`.
-5. Dopracowanie endpointów API i walidacji danych.
-6. Przycisk `Usuń` na frontendzie i endpoint `DELETE /api/tasks/{id}`.
-7. Rozszerzona dokumentacja uruchomienia i deploymentu.
 
 ## Szybki start lokalny
 
